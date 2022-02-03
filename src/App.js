@@ -12,16 +12,12 @@ function App() {
 
     <div className="App">
       <Header title = "Dashboard" searchBar= {true}/>
-      <table >
-      <tr>
-          <td > <BarChart/></td>
-          <td><LineChart/></td>
-        </tr>
-        <tr>
-          <td> <PieChart/></td>
-          <td><BubbleChart/></td>
-        </tr>
-        </table>
+      <div class="row row-cols-2">
+    <div class="col"><BarChart/></div>
+    <div class="col"><LineChart/></div>
+    <div class="col"><PieChart/> </div>
+    <div class="col"><BubbleChart/> </div>
+  </div>
      
     </div>
 

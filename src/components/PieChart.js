@@ -56,7 +56,7 @@ class PieChart extends Component{
             <div className="chart">
                 <Pie
                     data={this.state.chartData} 
-                    height={200}
+                    height={400}
                     width={400}
                     options={{
                         maintainAspectRatio: false,
