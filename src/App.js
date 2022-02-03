@@ -4,13 +4,14 @@ import BarChart from './components/BarChart';
 import LineChart from './components/LineChart'
 import PieChart from './components/PieChart'
 import BubbleChart from './components/BubbleGraph'
+import Header from './components/Header';
 import Chart from 'chart.js/auto';
 
 function App() {
   return (
 
     <div className="App">
-      <h1>Dashboard</h1>
+      <Header title = "Dashboard" searchBar= {true}/>
       <table >
       <tr>
           <td > <BarChart/></td>
